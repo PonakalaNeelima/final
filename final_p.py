@@ -23,7 +23,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 import joblib
 
-df = pd.read_csv("https://raw.githubusercontent.com/PonakalaNeelima/Project/refs/heads/master/output.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/PonakalaNeelima/final/refs/heads/master/output.csv")
 
 """# Data Exploration"""
 
