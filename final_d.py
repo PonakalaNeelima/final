@@ -22,9 +22,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 
-df1 = pd.read_csv("https://raw.githubusercontent.com/PonakalaNeelima/Project/refs/heads/master/waterQuality1.csv")
+df1 = pd.read_csv("https://raw.githubusercontent.com/PonakalaNeelima/final/refs/heads/master/waterQuality1.csv")
 
-df2 = pd.read_csv("https://raw.githubusercontent.com/PonakalaNeelima/Project/refs/heads/master/water_potability.csv")
+df2 = pd.read_csv("https://raw.githubusercontent.com/PonakalaNeelima/final/refs/heads/master/water_potability.csv")
 
 """# Data Exploration"""
 
